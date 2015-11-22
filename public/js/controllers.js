@@ -8,19 +8,17 @@ helloWorldControllers.controller('MainCtrl',
     function MainCtrl($scope, $location, $http, Sensors, Images) {
         //Nested service call
         Sensors.get({}, 
-        function success(response1) {
+        function success(response) {
                 console.log("Data Succes");
-                $scope.data = response1;
-                Images.get({},
-                function success(response2)
-                {
-                    console.log("Images success");
-                    $scope.images = response2;
-                    draw_histogram($scope.data, $scope.images);
-                },
-                function error(errorResponse){
-                    console.log("Error:" + JSON.stringify(errorResponse));
-                });
+                $scope.data = response;
+                draw_histogram($scope.data);
+        },
+        function error(errorResponse) {
+            console.log("Error:" + JSON.stringify(errorResponse));
+        });
+        Images.get({},
+        function success(response) {
+                console.log("Images Succes");
         },
         function error(errorResponse) {
             console.log("Error:" + JSON.stringify(errorResponse));
