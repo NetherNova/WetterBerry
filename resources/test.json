@@ -1,0 +1,27 @@
+lists : [
+  list : 
+  { 
+  id : "123",
+  date : "2014-01-01",
+  user_entry : {
+    name : "James", 
+    u_items : ["Salami", "Schinken"]
+    }
+  user_entry : {
+    name : "Inii",
+    u_items : ["Honig"]
+    }
+  }, 
+  list : 
+  {
+    id : "1234",
+    date : "2014-01-02",
+  user_entry : {
+    name : "James", 
+    u_items : ["Salami", "Schinken"]
+    }
+  user_entry : {
+    name : "Inii",
+    u_items : ["Honig"]
+    }
+  }

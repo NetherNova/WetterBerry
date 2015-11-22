@@ -1,0 +1,31 @@
+{ "name" : "Waren",
+    "parent" : null,
+    "children" : [
+      {
+        "name" : "Wurst",
+        "parent" : "Waren",
+        "children" : [
+          {
+            "name" : "Salami",
+            "parent" : "Wurst"
+          },
+          {
+            "name" : "Schinkenwurst",
+            "parent" : "Wurst"
+          },
+           {
+            "name" : "Pfefferbeißer",
+            "parent" : "Wurst"
+          },
+          {
+            "name" : "Schinken",
+            "parent" : "Wurst"
+          }
+        ]
+      },
+      {
+        "name" : "Käse",
+        "parent" : "Waren"
+      }
+    ]
+}

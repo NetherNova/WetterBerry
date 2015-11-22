@@ -1,0 +1,36 @@
+{
+  "name": "Einkaufsliste",
+  "version": "0.0.1",
+  "description": "Minimalist App",
+  "dependencies": {
+    "angular": "^1.4.5",
+    "express": "^4.13.3",
+    "mime": "~1.2.7",
+    "mocha": "^2.3.2",
+    "mongodb": "~1.4.26",
+    "mongoose": "3.8.21"
+  },
+  "devDependencies": {
+    "mocha": "1.12.0"
+  },
+  "directories": {
+    "lib": "./lib/mongoose"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "main": "./server.js",
+  "engines": {
+    "node": ">=0.6.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://bitbucket.org/nether_nova/Einkaufsliste"
+  },
+  "maintainers": [
+    {
+      "name": "Ma",
+      "email": "martin.ringsquandl@gmail.com"
+    }
+  ]
+}

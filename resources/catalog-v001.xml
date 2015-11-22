@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://dbpedia.org/ontology/" uri="dbpedia_2014.owl"/>
+    <uri id="Imports Wizard Entry" name="http://sw.opencyc.org/2010/08/15/concept/en/" uri="opencyc-2010-08-15-readable.owl"/>
+    <uri id="Imports Wizard Entry" name="http://sw.opencyc.org/concept/" uri="owl-export-unversioned.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1422625235975" name="http://ohcaptain.dyndnss.net/ontology" uri="ontology.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1422625235975" name="http://sw.opencyc.org/concept/" uri="owl-export-unversioned.owl"/>
+    </group>
+</catalog>

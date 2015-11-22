@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://ohcaptain.dyndnss.net/ontology#Inii",
+      "@type": [
+        "owl:NamedIndividual",
+        "foaf:Person"
+      ],
+      "http://ohcaptain.dyndnss.net/ontology#prefName": "Inii"
+    },
+    {
+      "@id": "http://ohcaptain.dyndnss.net/ontology#James",
+      "@type": [
+        "foaf:Person",
+        "owl:NamedIndividual"
+      ],
+      "http://ohcaptain.dyndnss.net/ontology#prefName": "James"
+    },
+    {
+      "@id": "http://ohcaptain.dyndnss.net/ontology",
+      "@type": "owl:Ontology"
+    },
+    {
+      "@id": "http://ohcaptain.dyndnss.net/ontology#prefName",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "http://ohcaptain.dyndnss.net/ontology#Ma",
+      "@type": [
+        "foaf:Person",
+        "owl:NamedIndividual"
+      ],
+      "http://ohcaptain.dyndnss.net/ontology#prefName": "Ma"
+    },
+    {
+      "@id": "foaf:Person",
+      "@type": "owl:Class"
+    },
+    {
+      "@id": "http://ohcaptain.dyndnss.net/ontology#Fadi",
+      "@type": [
+        "foaf:Person",
+        "owl:NamedIndividual"
+      ],
+      "http://ohcaptain.dyndnss.net/ontology#prefName": "Fadi"
+    }
+  ]
+}
