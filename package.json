@@ -8,7 +8,7 @@
     "mime": "~1.2.7",
     "mocha": "^2.3.2",
     "mongodb": "~1.4.26",
-    "mongoose": "3.8.21"
+    "mongoose": "5.7.11"
   },
   "devDependencies": {
     "mocha": "1.12.0"
